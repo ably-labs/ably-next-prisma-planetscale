@@ -2,11 +2,11 @@ This is a starter project for building a real-time application with Ably, Prisma
 
 ## Getting started
 
-First, you need to fork this project to your own repository. It is important to not overwrite any code in *this* repository.
+First, you need to fork this project to your own repository. It is important to not overwrite any code in **this** repository.
 
-Second, use git clone to download it to your computer.
+Second, use git clone to get a local copy.
 
-Third, use `npm install` or `yarn install` to get your dependencies.
+Third, use `npm install` or `yarn install` to install your dependencies.
 
 Finally, run the development server:
 
