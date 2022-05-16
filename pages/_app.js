@@ -1,7 +1,9 @@
 import { configureAbly } from "@ably-labs/react-hooks";
 import "../styles/globals.css";
 
-configureAbly({ authUrl: "http://localhost:3000/api/createTokenRequest" });
+configureAbly({
+  authUrl: `${process.env.NEXT_PUBLIC_HOSTNAME}/api/createTokenRequest`,
+});
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

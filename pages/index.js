@@ -39,7 +39,7 @@ const Home = ({ comments = [] }) => {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_DEV_HOST}/api/comment`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_HOSTNAME}/api/comment`);
   const comments = await res.json();
   return {
     props: { comments },
